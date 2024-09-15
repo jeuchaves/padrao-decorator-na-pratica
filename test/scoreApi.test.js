@@ -21,7 +21,7 @@ describe('Teste da API de Score', () => {
     });
 
     // Teste para verificar o retorno de um CPF inválido
-    it('Deve retornar erro 400 para CPF inválido ou não fornecido', async () => {
+    it('Deve retornar erro 429 para CPF inválido ou não fornecido', async () => {
         const cpfInvalido = '111';  // CPF inválido para teste
 
         const response = await request(apiUrl)

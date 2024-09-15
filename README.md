@@ -30,7 +30,7 @@ Este projeto implementa um cliente para consumir uma API de consulta de crédito
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/api-score-client.git
+git clone https://github.com/jeuchaves/padrao-decorator-na-pratica.git
 ```
 
 2. Instale as dependências:
